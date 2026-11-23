@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TrentaYPico | Rebobiná tus mejores recuerdos</title>
+<meta name="description" content="Volvé a los 90 y 2000 con TrentaYPico. Música, rock nacional, videos y recuerdos de una generación. Dale play a la nostalgia argentina.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TrentaYPico | Rebobiná tus mejores recuerdos">
+<meta property="og:description" content="Música, historias y nostalgia argentina de los 90 y 2000.">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./style.css">
+<script src="./rockola.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="header" id="inicio"><div class="wrap bar">
+<a href="./" class="logo" aria-label="TrentaYPico"><img src="./icon.svg" alt="" width="35" height="26">Trenta<span>Y</span>Pico</a>
+<nav aria-label="Navegación principal"><a href="#quienes-somos">Quiénes somos</a><a href="#rockola">La Rockola</a><a class="nav-cta" href="./contacto/">Contacto <span aria-hidden="true">♡</span></a></nav>
+</div></header>
+<main id="contenido">
+<section class="hero"><div class="wrap hero-grid">
+<div>
+<p class="mono rec">REC <span>1990 — 2005</span></p>
+<h1>Rebobiná tus<br class="desktop"> mejores<br class="desktop"> <em>recuerdos.</em></h1>
+<p class="intro">La música, los momentos y las pequeñas cosas que hicieron inolvidables los años 90 y 2000.</p>
+<div class="actions"><a class="key coral" href="#rockola"><span aria-hidden="true">▶</span> Dale play a la nostalgia</a><a class="key cream" href="#quienes-somos"><span aria-hidden="true">◀◀</span> Volver a los 90</a></div>
+</div>
+<div class="hero-art"><span class="sparkle" aria-hidden="true">✦</span><img src="./cassette.webp" alt="Cassette violeta ilustrado, con franjas amarilla, coral y turquesa" width="1050" height="681" fetchpriority="high"><span class="sparkle small" aria-hidden="true">✦</span><p class="art-note mono">SIDE A · GRANDES RECUERDOS</p></div>
+</div></section>
+<div class="tape-strip"><p class="wrap">«Hay canciones que no escuchamos hace años, pero todavía sabemos de memoria».</p></div>
+<section class="wrap section history" id="quienes-somos">
+<p class="mono section-label">SIDE B / NUESTRA HISTORIA</p>
+<h2>Si viviste los 90,<br> este lugar es para vos.</h2>
+<div class="history-copy"><p>¿Te acordás de grabar canciones de la radio, esperar tu programa favorito en la tele o pasar horas eligiendo una película en el videoclub?</p><p>TrentaYPico nació para volver a escuchar nuestra música y recordar esas pequeñas cosas que compartimos sin darnos cuenta de que algún día serían historia.</p></div>
+<div class="cards">
+<article class="memory"><div class="card-art tv-art" aria-hidden="true"><div class="tv"><i></i></div></div><div class="card-copy"><p class="mono">Nuestra infancia</p><h3>Cuando todo era una aventura</h3><p>Dibujitos después del colegio, tardes jugando afuera, figuritas y videojuegos.</p></div></article>
+<article class="memory"><div class="card-art tape-art" aria-hidden="true"><img src="./icon.svg" alt="" width="126" height="88" loading="lazy"></div><div class="card-copy"><p class="mono">Nuestra música</p><h3>La banda sonora de una generación</h3><p>Canciones grabadas de la radio, compilados caseros y temas que reconocés con los primeros acordes.</p></div></article>
+<article class="memory"><div class="card-art disk-art" aria-hidden="true"><div class="disk"></div></div><div class="card-copy"><p class="mono">Nuestra tecnología</p><h3>Antes de que todo fuera digital</h3><p>El teléfono fijo, los disquetes, los primeros celulares y el módem que hacía ruido.</p></div></article>
+<article class="memory"><div class="card-art photo-art" aria-hidden="true"><div class="photo"></div></div><div class="card-copy"><p class="mono">Nuestros recuerdos</p><h3>Momentos que siguen con nosotros</h3><p>Recreos, cumpleaños, viajes familiares y pequeñas costumbres que marcaron nuestra historia.</p></div></article>
+</div>
+<p class="section-quote">«Cambiaron los tiempos, pero hay recuerdos que siguen intactos».</p>
+</section>
+<section class="rockola section" id="rockola"><div class="wrap">
+<p class="mono section-label">TRACK 01 / LA ROCKOLA</p>
+<h2>La música que nos hace<br> viajar en el tiempo.</h2>
+<p class="rockola-intro">Hay canciones que nos devuelven a un lugar, una persona o un momento especial. Elegí tu época, subí el volumen y dejá que los recuerdos hagan el resto.</p>
+<div class="deck">
+<div class="deck-header mono"><span>TrentaYPico · Rockola</span><span>STEREO</span></div>
+<div class="display" id="reproductor">
+<div class="display-inner"><img src="./icon.svg" width="100" height="70" alt=""><p>Elegí una playlist para cargar el reproductor.</p></div>
+</div>
+<div class="deck-footer"><p class="mono" id="track-status" aria-live="polite">Sin playlist seleccionada</p><a id="youtube-link" hidden target="_blank" rel="noopener noreferrer">Abrir en YouTube</a></div>
+</div>
+<div class="playlist-grid">
+<article class="playlist"><h3>Rock nacional de los 90</h3><p>El rock que marcó nuestra historia.</p><button class="key yellow" data-playlist="rock" aria-pressed="false" aria-controls="reproductor">▶ Escuchar ahora</button></article>
+<article class="playlist"><h3>Los lentos inolvidables</h3><p>Cuando llegaba el momento de bailar.</p><button class="key cream" data-playlist="lentos" aria-pressed="false" aria-controls="reproductor">▶ Volver a escuchar</button></article>
+<article class="playlist"><h3>Hits de los 2000</h3><p>Los temas que sonaban en todos lados.</p><button class="key teal" data-playlist="hits" aria-pressed="false" aria-controls="reproductor">▶ Dale play</button></article>
+<article class="playlist"><h3>Clásicos para cantar</h3><p>Es imposible no saberse el estribillo.</p><button class="key coral" data-playlist="clasicos" aria-pressed="false" aria-controls="reproductor">▶ Reproducir playlist</button></article>
+</div>
+<p class="section-quote">«Algunas canciones son verdaderas máquinas del tiempo».</p>
+</div></section>
+<section class="wrap section" id="apoyanos"><div class="ticket">
+<div><p class="mono section-label">BONUS TRACK / GRACIAS POR ESTAR</p><h2>Ayudanos a que siga sonando.</h2><p>TrentaYPico es un proyecto independiente sin fines de lucro. Se sostiene con donaciones voluntarias de quienes disfrutan este espacio.</p><p class="ticket-note">Compartir la página también es una gran ayuda.</p><a class="key coral" href="./contacto/">♡ Bancá a TrentaYPico</a></div><span aria-hidden="true" class="ticket-heart">♥</span>
+</div></section>
+</main>
+<footer><div class="wrap footer-grid"><div><a href="./" class="logo" aria-label="TrentaYPico"><img src="./icon.svg" alt="" width="35" height="26">Trenta<span>Y</span>Pico</a><p>Los mejores recuerdos siempre merecen otra vuelta.</p></div><nav aria-label="Navegación al pie"><a href="#inicio">Inicio</a><a href="#quienes-somos">Quiénes somos</a><a href="#rockola">La Rockola</a><a href="./contacto/">Contacto y colaboraciones</a></nav></div><div class="wrap legal"><p>Los videos y la música pertenecen a sus respectivos titulares y se presentan a través de los servicios oficiales correspondientes.</p><p>© 2026 TrentaYPico. Hecho con nostalgia en Argentina.</p></div><nav class="policy-nav" aria-label="Información legal"><a href="./privacidad/">Privacidad</a><a href="./aviso-legal/">Aviso legal</a></nav></footer>
+<div class="floating-rock" id="floating-rock" hidden>
+  <a class="floating-player-link" id="floating-player-link" href="#reproductor" hidden>Ver reproductor</a>
+  <button class="key yellow" id="floating-play" type="button" aria-controls="reproductor">
+    <span id="floating-icon" aria-hidden="true">▶</span> <span id="floating-label">Rock nacional</span>
+  </button>
+</div>
+</body>
+</html>
